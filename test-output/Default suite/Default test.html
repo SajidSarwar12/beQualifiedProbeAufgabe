@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/6/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Mar 17 14:56:36 CET 2025</td>
+<td>Started on:</td><td>Thu Mar 20 02:08:46 CET 2025</td>
 </tr>
-<tr><td>Total time:</td><td>9 seconds (9432 ms)</td>
+<tr><td>Total time:</td><td>2 seconds (2739 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,315 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "standard Login", "Application Login"</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 129
-Current browser version is 134.0.6998.89 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
-Host info: host: &apos;Sajids-MacBook-Air.local&apos;, ip: &apos;fdac:a173:4254:0:8c6:fb54:cfe0:8cf2%en0&apos;
-Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3.2&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at stepDefinitions.LoginPageStepsDefinitions.user_is_on_saucedemo_login_page(LoginPageStepsDefinitions.java:25)
-	at ✽.User is on saucedemo Login Page(file:///Users/sajidsarwar/git/repository/probeAufgabeAutomation/src/test/java/features/Login.feature:9)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1904676263", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1904676263'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 129
-Current browser version is 134.0.6998.89 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
-Host info: host: &apos;Sajids-MacBook-Air.local&apos;, ip: &apos;fdac:a173:4254:0:8c6:fb54:cfe0:8cf2%en0&apos;
-Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3.2&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at stepDefinitions.LoginPageStepsDefinitions.user_is_on_saucedemo_login_page(LoginPageStepsDefinitions.java:25)
-	at ✽.User is on saucedemo Login Page(file:///Users/sajidsarwar/git/repository/probeAufgabeAutomation/src/test/java/features/Login.feature:9)
-</pre></div></td>
-<td>5</td>
-<td>Classes.testNGRunner@59309333</td></tr>
-<tr>
-<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Problem Login", "Application Login"</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 129
-Current browser version is 134.0.6998.89 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
-Host info: host: &apos;Sajids-MacBook-Air.local&apos;, ip: &apos;fdac:a173:4254:0:8c6:fb54:cfe0:8cf2%en0&apos;
-Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3.2&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at stepDefinitions.LoginPageStepsDefinitions.user_is_on_saucedemo_login_page(LoginPageStepsDefinitions.java:25)
-	at ✽.User is on saucedemo Login Page(file:///Users/sajidsarwar/git/repository/probeAufgabeAutomation/src/test/java/features/Login.feature:24)
-</pre></div><a href='#' onClick='toggleBox("stack-trace424209001", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace424209001'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 129
-Current browser version is 134.0.6998.89 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
-Host info: host: &apos;Sajids-MacBook-Air.local&apos;, ip: &apos;fdac:a173:4254:0:8c6:fb54:cfe0:8cf2%en0&apos;
-Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3.2&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at stepDefinitions.LoginPageStepsDefinitions.user_is_on_saucedemo_login_page(LoginPageStepsDefinitions.java:25)
-	at ✽.User is on saucedemo Login Page(file:///Users/sajidsarwar/git/repository/probeAufgabeAutomation/src/test/java/features/Login.feature:24)
-</pre></div></td>
-<td>0</td>
-<td>Classes.testNGRunner@59309333</td></tr>
-<tr>
-<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Error Login", "Application Login"</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 129
-Current browser version is 134.0.6998.89 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
-Host info: host: &apos;Sajids-MacBook-Air.local&apos;, ip: &apos;fdac:a173:4254:0:8c6:fb54:cfe0:8cf2%en0&apos;
-Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3.2&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at stepDefinitions.LoginPageStepsDefinitions.user_is_on_saucedemo_login_page(LoginPageStepsDefinitions.java:25)
-	at ✽.User is on saucedemo Login Page(file:///Users/sajidsarwar/git/repository/probeAufgabeAutomation/src/test/java/features/Login.feature:38)
-</pre></div><a href='#' onClick='toggleBox("stack-trace36707189", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace36707189'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 129
-Current browser version is 134.0.6998.89 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
-Host info: host: &apos;Sajids-MacBook-Air.local&apos;, ip: &apos;fdac:a173:4254:0:8c6:fb54:cfe0:8cf2%en0&apos;
-Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3.2&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at stepDefinitions.LoginPageStepsDefinitions.user_is_on_saucedemo_login_page(LoginPageStepsDefinitions.java:25)
-	at ✽.User is on saucedemo Login Page(file:///Users/sajidsarwar/git/repository/probeAufgabeAutomation/src/test/java/features/Login.feature:38)
-</pre></div></td>
-<td>0</td>
-<td>Classes.testNGRunner@59309333</td></tr>
-<tr>
-<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Lockedout Login", "Application Login"</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 129
-Current browser version is 134.0.6998.89 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
-Host info: host: &apos;Sajids-MacBook-Air.local&apos;, ip: &apos;fdac:a173:4254:0:8c6:fb54:cfe0:8cf2%en0&apos;
-Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3.2&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at stepDefinitions.LoginPageStepsDefinitions.user_is_on_saucedemo_login_page(LoginPageStepsDefinitions.java:25)
-	at ✽.User is on saucedemo Login Page(file:///Users/sajidsarwar/git/repository/probeAufgabeAutomation/src/test/java/features/Login.feature:17)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2010221835", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2010221835'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 129
-Current browser version is 134.0.6998.89 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
-Host info: host: &apos;Sajids-MacBook-Air.local&apos;, ip: &apos;fdac:a173:4254:0:8c6:fb54:cfe0:8cf2%en0&apos;
-Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3.2&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at stepDefinitions.LoginPageStepsDefinitions.user_is_on_saucedemo_login_page(LoginPageStepsDefinitions.java:25)
-	at ✽.User is on saucedemo Login Page(file:///Users/sajidsarwar/git/repository/probeAufgabeAutomation/src/test/java/features/Login.feature:17)
-</pre></div></td>
-<td>0</td>
-<td>Classes.testNGRunner@59309333</td></tr>
-<tr>
-<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Performance_glitch Login", "Application Login"</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 129
-Current browser version is 134.0.6998.89 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
-Host info: host: &apos;Sajids-MacBook-Air.local&apos;, ip: &apos;fdac:a173:4254:0:8c6:fb54:cfe0:8cf2%en0&apos;
-Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3.2&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at stepDefinitions.LoginPageStepsDefinitions.user_is_on_saucedemo_login_page(LoginPageStepsDefinitions.java:25)
-	at ✽.User is on saucedemo Login Page(file:///Users/sajidsarwar/git/repository/probeAufgabeAutomation/src/test/java/features/Login.feature:31)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1625428489", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1625428489'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 129
-Current browser version is 134.0.6998.89 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
-Host info: host: &apos;Sajids-MacBook-Air.local&apos;, ip: &apos;fdac:a173:4254:0:8c6:fb54:cfe0:8cf2%en0&apos;
-Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3.2&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at stepDefinitions.LoginPageStepsDefinitions.user_is_on_saucedemo_login_page(LoginPageStepsDefinitions.java:25)
-	at ✽.User is on saucedemo Login Page(file:///Users/sajidsarwar/git/repository/probeAufgabeAutomation/src/test/java/features/Login.feature:31)
-</pre></div></td>
-<td>0</td>
-<td>Classes.testNGRunner@59309333</td></tr>
-<tr>
-<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Visual Login", "Application Login"</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 129
-Current browser version is 134.0.6998.89 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
-Host info: host: &apos;Sajids-MacBook-Air.local&apos;, ip: &apos;fdac:a173:4254:0:8c6:fb54:cfe0:8cf2%en0&apos;
-Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3.2&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at stepDefinitions.LoginPageStepsDefinitions.user_is_on_saucedemo_login_page(LoginPageStepsDefinitions.java:25)
-	at ✽.User is on saucedemo Login Page(file:///Users/sajidsarwar/git/repository/probeAufgabeAutomation/src/test/java/features/Login.feature:45)
-</pre></div><a href='#' onClick='toggleBox("stack-trace30563356", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace30563356'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 129
-Current browser version is 134.0.6998.89 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
-Host info: host: &apos;Sajids-MacBook-Air.local&apos;, ip: &apos;fdac:a173:4254:0:8c6:fb54:cfe0:8cf2%en0&apos;
-Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3.2&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at stepDefinitions.LoginPageStepsDefinitions.user_is_on_saucedemo_login_page(LoginPageStepsDefinitions.java:25)
-	at ✽.User is on saucedemo Login Page(file:///Users/sajidsarwar/git/repository/probeAufgabeAutomation/src/test/java/features/Login.feature:45)
-</pre></div></td>
-<td>0</td>
-<td>Classes.testNGRunner@59309333</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -385,22 +76,72 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Remove from Cart", "Application Homepage"</td>
+<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Remove from Cart", "Standard User Login"</td>
 <td></td>
 <td>0</td>
 <td>Classes.testNGRunner@59309333</td></tr>
 <tr>
-<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Change Sorting filters", "Application Homepage"</td>
+<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Checkout: Overview", "Standard User Login"</td>
 <td></td>
 <td>0</td>
 <td>Classes.testNGRunner@59309333</td></tr>
 <tr>
-<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add to cart", "Application Homepage"</td>
+<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Checkout", "Standard User Login"</td>
 <td></td>
 <td>0</td>
 <td>Classes.testNGRunner@59309333</td></tr>
 <tr>
-<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Article details", "Application Homepage"</td>
+<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add to cart", "Standard User Login"</td>
+<td></td>
+<td>0</td>
+<td>Classes.testNGRunner@59309333</td></tr>
+<tr>
+<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "standard Login", "Standard User Login"</td>
+<td></td>
+<td>2</td>
+<td>Classes.testNGRunner@59309333</td></tr>
+<tr>
+<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Back Home", "Standard User Login"</td>
+<td></td>
+<td>0</td>
+<td>Classes.testNGRunner@59309333</td></tr>
+<tr>
+<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Change Sorting filters", "Standard User Login"</td>
+<td></td>
+<td>0</td>
+<td>Classes.testNGRunner@59309333</td></tr>
+<tr>
+<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Reset App State", "Standard User Login"</td>
+<td></td>
+<td>0</td>
+<td>Classes.testNGRunner@59309333</td></tr>
+<tr>
+<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Go to cart", "Standard User Login"</td>
+<td></td>
+<td>0</td>
+<td>Classes.testNGRunner@59309333</td></tr>
+<tr>
+<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logout", "Standard User Login"</td>
+<td></td>
+<td>0</td>
+<td>Classes.testNGRunner@59309333</td></tr>
+<tr>
+<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "All Items", "Standard User Login"</td>
+<td></td>
+<td>0</td>
+<td>Classes.testNGRunner@59309333</td></tr>
+<tr>
+<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Article details", "Standard User Login"</td>
+<td></td>
+<td>0</td>
+<td>Classes.testNGRunner@59309333</td></tr>
+<tr>
+<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add to cart", "Standard User Login"</td>
+<td></td>
+<td>0</td>
+<td>Classes.testNGRunner@59309333</td></tr>
+<tr>
+<td title='Classes.testNGRunner.runScenario()'><b>runScenario</b><br>Test class: Classes.testNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Checkout: Your Information", "Standard User Login"</td>
 <td></td>
 <td>0</td>
 <td>Classes.testNGRunner@59309333</td></tr>
